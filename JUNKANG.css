@@ -1,0 +1,470 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #F8EFE8
+}
+.header{
+	width: 100%;
+	height: 1000px;
+	
+}
+#wrapper {
+  max-width: 1450px;
+  height: 10000px;
+  background: #F8EFE8;
+  padding: 0.2px 0;
+  justify-content: space-around;
+  margin: 0 auto;
+  position: relative;
+}
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  background: #F8EFE8;
+  position: fixed;
+  z-index: 10;
+}
+.box1 {
+  width: 500px;
+  right: 200px;
+  float: right;
+}
+.logo img {
+  width: 20%;
+  padding: 20px 20px;
+}
+ul {
+  list-style: none;
+  text-align: right;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  width: 70%;
+  height: 100px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+nav ul li {
+  margin: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: helvetica;
+}
+.container {
+  width: 1450px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  width: 100%;
+  position: absolute;
+}
+.header-main {
+  display: flex;
+}
+.box2 {
+  margin-top: 80px;
+  width: 100%;
+  height: 900px;
+}
+.img src {
+  display: center;
+  width: 100%;
+  height: 100px;
+}
+.content {
+  position: absolute;
+  width: 5000px;
+  right: 50px;
+  top: 200px;
+  animation: chay 50s infinite linear;
+  animation-iteration-count: infinite;
+}
+.content2 {
+  position: absolute;
+  width: 7550px;
+  right: 50px;
+  top: 355px;
+  animation: chaynguoc 50s infinite linear;
+  animation-iteration-count: infinite;
+}
+.content3 {
+  position: absolute;
+  width: 29000px;
+  right: 1000px;
+  top: 510px;
+  animation: chay 50s infinite linear;
+}
+.box2 {
+  position: absolute;
+  width: 100%;
+  height: 900px;
+  top: 800px;
+  background: url("hinh/tumblr_pac5q82bBp1u20wb7o1_1280.jpg");
+  display: flex;
+  justify-content: center;
+}
+.box3 {
+  width: 85%;
+  height: 700px;
+  background: #CCC4B6;
+  margin-top: 100px;
+  position: absolute;
+}
+.hinh1 {
+  width: 40%;
+  height: 550px;
+  background: url("hinh/tumblr_pac5psk8V41u20wb7o1_1280.jpg");
+  margin-top: 80px;
+  margin-left: 80px;
+  display: flex;
+}
+.hinh2 {
+  width: 20%;
+  height: 300px;
+  margin-top: -630px;
+  margin-left: 650px;
+  display: flex;
+}
+.hinh3 {
+  width: 20%;
+  margin-top: -176px;
+  margin-left: 979px;
+}
+.hinh4 {
+  width: 25%;
+  margin-top: 20px;
+  margin-left: 651px;
+}
+.new {
+  width: 35%;
+  position: absolute;
+  margin-left: -590px;
+}
+.collection {
+  width: 89%;
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 680px;
+}
+.box4 {
+  width: 100%;
+  height: 2300px;
+  background: #F8EFE8;
+  margin-top: 1760px;
+}
+.box5 {
+  width: 100%;
+  height: 3900px;
+  background: #6B6153;
+  margin-top: 500px
+}
+.hinhanh1 {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.vector1 {
+  width: 10%;
+  margin-top: 5px;
+  animation-name: bo-tron;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.vector2 {
+  width: 20%;
+  animation-name: bo-tron1;
+  animation-duration: 8s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.hinhanh2 {
+  width: 80%;
+  margin-left: 417px
+}
+.hinhanh3 {
+  width: 80%;
+  margin-left: -23px;
+}
+.vector3 {
+  width: 9%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: -690px;
+  margin-left: 310px;
+  position: absolute;
+  z-index: 4;
+  animation: 6s infinite chay1 alternate;
+}
+.vector4 {
+  width: 9%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: -590px;
+  margin-left: 910px;
+  position: absolute;
+  z-index: 4;
+  animation: 3s infinite chay3 alternate;
+}
+.hinhanh4 {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: -480px;
+  position: relative;
+  z-index: 3;
+}
+.vector5 {
+  width: 13%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: -100px;
+  margin-left: 1200px;
+  position: absolute;
+  z-index: 1;
+  animation: 4s infinite chay4 alternate;
+}
+.vector6 {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: -600px;
+}
+.hinhanhava {
+  width: 30%;
+  margin-top: -2400px;
+  position: absolute;
+  margin-left: 30px;
+}
+.vector7 {
+  width: 30%;
+  margin-top: -2261px;
+  position: absolute;
+  margin-left: 400px;
+}
+.box6 {
+  width: 100%;
+  height: 500px;
+  background: #0C0D0D;
+}
+.feedback {
+  width: 20%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.feedback1 {
+  width: 330%;
+  animation-name: chay6;
+  animation-duration: 25s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.storebig {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 140px;
+  margin-top: 10px;
+}
+.thanhngang {
+  width: 100%;
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 500px;
+  font-size: 25px;
+  font-display: flex;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.store1 {
+  margin-left: 60px;
+  align-items: center;
+}
+.store2 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.store3 {
+  margin-right: 50px;
+}
+p1 {
+  width: 200px;
+  height: 120px;
+  margin-top: 10px;
+}
+p2 {
+  width: 200px;
+  height: 120px;
+  margin-right: 215px;
+  margin-left: 215px;
+  margin-top: 10px;
+}
+p3 {
+  width: 150px;
+  height: 120px;
+  margin-top: 10px;
+}
+.box7 {
+  width: 100%;
+  height: 1000px;
+  background: #CBCCC7;
+	animation: 4s infinite doi-mau alternate;
+}
+.tks {
+  width: 50%;
+  margin-left: 370px;
+  margin-top: 370px;
+}
+.jun {
+  width: 4%;
+  margin-left: -60px;
+  margin-top: 120px;
+  animation: 3s infinite bo-tron2 alternate;
+}
+.jun2 {
+  width: 8%;
+  margin-left: -812px;
+  margin-bottom: 220px;
+  animation: 6s infinite bo-tron alternate;
+}
+.box8 {
+  width: 100%;
+  height: 300px;
+  background: #989898;
+	
+}
+.hinhjun {
+  width: 90%;
+  margin-left: 80px;
+  margin-top: 40px;
+}
+@keyframes chay{
+  from {
+    transform: translateX(5000px)
+  }
+  to {
+    transform: translateX(-900px)
+  }
+}
+@keyframes chaynguoc{
+  from {
+    transform: translateX(-900px)
+  }
+  to {
+    transform: translateX(5000px)
+  }
+}
+@keyframes bo-tron{
+  from {
+    transform: rotate(0)
+  }
+  to {
+    /*		border-radius: 50%;*/
+    transform: rotate(360deg);
+  }
+}
+@keyframes bo-tron1{
+  from {
+    transform: rotate(360deg)
+  }
+  to {
+    /*		border-radius: 50%;*/
+    transform: rotate(0);
+  }
+}
+@keyframes bo-tron2 {
+  from {
+    transform: rotate(60deg)
+  }
+  to {
+    /*		border-radius: 50%;*/
+    transform: rotate(-60deg);
+  }
+}
+@keyframes chay1 {
+  0% {
+    transform: translateY(0) rotate(0)
+  }
+  50% {
+    transform: translateY(20px)
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg)
+  }
+}
+@keyframes chay3 {
+  0% {
+    transform: translateY(0) rotate(0)
+  }
+  50% {
+    transform: translateY(50px)
+  }
+  100% {
+    transform: translate(50px, 50px) rotate(0)
+  }
+}
+@keyframes chay4 {
+  0% {
+    transform: translateY(0) rotate(0)
+  }
+  50% {
+    transform: translatex(20px)
+  }
+  100% {
+    transform: translate(10px, 30px) rotate(80deg)
+  }
+}
+@keyframes chay5 {
+  from {
+    transform: translateX(-300px)
+  }
+  to {
+    transform: translateX(20px)
+  }
+}
+@keyframes chay6 {
+  from {
+    transform: translateX(0px)
+  }
+  to {
+    transform: translateX(-3000px)
+  }
+}
+@keyframes doi-mau {
+  0% {
+    background: #FFFFFF;
+  }
+  50% {
+    background: #E9EAE4;
+  }
+  100% {
+    background: #CBCCC7;
+  }
+}
